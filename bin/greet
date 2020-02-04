@@ -1,9 +1,8 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
-def greeting (name)
+def greeting ("elizabeth")
 puts "Hi! I'm HAL, whats your name?"
-name = puts.strip
-puts "Hello #{name}. It's nice to meet you."
+puts "Hello #{name.strip}. It's nice to meet you."
 end
 
-greeting(name)
+greeting(elizabeth)
